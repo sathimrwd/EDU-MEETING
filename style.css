@@ -1,0 +1,367 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box ;
+    font-family: sans-serif;text-decoration: none;
+    }
+    .headersection{
+      min-height: 100vh;
+      width: 100%;
+    }
+  
+  body{
+    background: rgb(95, 93, 93);
+    
+  }
+.headline{
+    background: black;
+    height: 40px;
+    width: 100%;
+}
+  label.icon{
+    color: rgb(250, 245, 245);
+    font-size: 14px;
+    line-height: 30px;padding: 80px;
+    font-family: sans-serif;
+    margin-left: 200px;
+  }
+  .purple{
+    color: rgb(228, 162, 41);
+  }
+
+
+   header{
+    background: rgb(250, 249, 249);
+    height: 100px;
+    width: 100%;
+    opacity: 0.4;
+    }
+   label.logo{
+    color: rgb(102, 96, 96);
+    font-size: 30px;
+    line-height: 80px;padding:80px ;
+    font-family: Verdana, ;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-left: 200px;
+   }
+   header ul{
+    float: right;
+    margin-right: 30px;
+   }
+   header ul li{
+    display: inline-block;
+    line-height: 30px;
+    margin: 0 5px;
+   }
+   .active{
+    color: rgb(236, 156, 7);
+   }
+   header ul li a{
+        color: rgb(107, 100, 100);
+        font-size: 18px;
+        padding: 13px;
+        border-radius: 4px;
+        text-transform: uppercase;
+        line-height: 80px;
+   }
+   a:hover{
+    color: orange;
+   }
+   
+   .chang{
+    color: rgb(21, 157, 211);
+   }
+   .chang:hover{
+    color: rgb(253, 167, 7);
+    cursor: pointer;
+   }
+   .about{
+    margin-top: 200px;
+    color: white;
+     margin-left: 300px;
+   }
+   .two{
+    text-align: left;
+   }
+    .btn a{
+    font-size: 18px;
+    color: white;
+    background: rgb(223, 55, 55);
+    padding: 15px 20px;
+    border-radius: 20px;
+    }
+   .secondsection{
+    min-height: 100vh;
+    width: 100%;
+    background:rgb(110, 106, 106);}
+   .container{
+    display: flex;
+    margin-left: 100px;
+   }
+   .card{
+    background: rgb(155, 37, 37);
+    height: 250px;width: 50%;
+    margin: 40px;
+    border-radius: 20px;
+   
+   }
+   .card img{
+       margin-top: 10px;
+       margin-left: 220px;
+      }
+      .card h4{
+        text-align: center;
+        color: white;
+      }
+      .card p{
+        text-align: center;
+        color: white;
+        font-size: 14px;
+        line-height: 20px;
+      }
+      .secondsection h1{
+        text-align: center;
+        color: white;
+      }
+      .main{
+        display: flex;
+        justify-content: space-around;margin-top: 10px;
+        margin-left: 0px;
+      }
+      .left-class{
+        background: white;
+        height: 400px;
+        border-radius: 40px;
+      }
+      .left-class h1{
+        color: black;
+        margin-left: 20px;text-align: left;
+        margin-top: 50px;padding: 50px;font-size: 18px;
+      }
+      .left-class p{
+        margin-left: 50px;
+        font-size: 13px;
+      }
+      .left-class p:hover{
+        color: rgb(187, 14, 14);cursor: pointer;
+      }
+      .left-class a{
+        background: rgb(155, 14, 14);
+        color: rgb(240, 230, 230);
+        border-radius: 20px;
+       padding: 10px 50px;
+       margin-left: 80px;
+      }
+      .left-class a:hover{
+        background: rgb(226, 93, 93);
+        color: rgb(241, 230, 230);
+        transition: 2s;
+      }
+      #problem{
+        display: grid;
+          grid-template-columns: 1fr 1fr;
+          grid-gap:2em;
+      }
+      .right-class{
+        background: white;
+        height: 300px;
+        border-radius: 20px;
+        padding: 10px;
+       }
+      .mini{
+        display: flex;
+        justify-content: space-around;
+       }
+       .right-class h1{
+        color: black;
+        margin-right: 100px;
+       }
+       .right-class p{
+        font-size: 12px;
+       }
+       .left h6{
+        color: brown;
+       }
+       .next{
+        display: flex;
+        justify-content: space-around;
+        height: 300px;
+        border-radius: 20px;
+       }
+       .midelsection{
+        background: rgb(102, 94, 94);
+        min-height: 80vh;
+        width: 100%;
+        }
+        .midel-class{
+          display: flex;
+          justify-content: space-around;
+         }
+         .left .btn{
+          background: rgb(133, 128, 128);
+          height: 200px;
+          width: 500px;
+          border-radius: 0px;
+          padding: 40px;
+          margin-top: 80px;
+          margin-right: 0px;
+         }
+         .btn h1{
+          color: white;
+         }
+         .btn p{
+          line-height: 20px;
+          color: white;
+         }
+         .btn a{
+          background:rgb(184, 33, 33) ;
+          padding: 15px 20px;
+          font-size: 12px;
+         }
+         .btn .color {
+          background: rgb(206, 144, 30);
+         }
+         .right .one{
+          background: white;
+          height: 550px;
+          width: 400px;
+          padding: 40px;
+          margin-top: 80px;
+          border-radius: 20px;
+          margin-left: 0px;
+         }
+         .one h3{
+          color: rgb(209, 142, 19);
+         }
+         .pictursection{
+          min-height: 80vh;
+          width: 100%;
+          background: rgb(129, 118, 118);
+         }
+         
+         .all{
+          display: flex;
+          justify-content: space-around;
+          margin-left: 80px;
+        }
+        .pik{
+          margin-left: 5px;
+          height: 300px;
+          width: 270px;
+          background: white;
+          margin-top: 80px;
+          text-align: center;
+          color: rgb(92, 84, 84);
+         }
+         .two h1{
+          margin-left: 100px;
+         }
+         .fiftsection{
+          min-height: 80vh;
+          width: 100%;
+          background: rgb(102, 94, 94);
+         }
+         .position{
+          display: flex;
+          justify-content: space-around;
+         }
+         .right .img img{
+          height: 400px;
+          width: 600px;
+          margin-top: 200px;
+          margin-right: 100px;
+          border-radius: 20px;
+         }
+         .laft h1{
+          margin-top: 100px;
+          margin-left: 80px;
+          font-size: 30px;
+          color: white;
+         }
+         #min{
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+          grid-gap:2em;
+         
+
+         }
+         .child{
+          background: rgb(109, 105, 105);padding: 1em;
+          color: rgb(184, 125, 16);text-align: center;
+          border-radius: 20px;height: 150px;width: 300px;
+        }
+        .child h1{
+          font-size: 18px;text-align: center;
+          margin-top: 20px;margin-left: 5px;
+        }
+
+         .endsection{
+          min-height: 80vh;
+          width: 100%;
+          background: rgb(139, 133, 133);
+         }
+         .foter{
+          display: flex;
+          justify-content: space-around;
+         }
+         .red{
+          background: rgb(180, 10, 10);
+          height: 500px;
+          width: 250px;border-radius: 20px;
+          padding: 30px 20px;
+          margin-top: 100px;color: white;text-align: center;
+         }
+         .contact-box{
+          width: 500px;
+          background-color: #fff;
+          box-shadow: 0 0 20px 0 #999;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%,-50%);
+          position: absolute;
+          
+         }
+         form{
+          margin: 35px;
+         }
+         .input-field{
+          width: 500px;
+          height: 40px;
+          margin-top: 20px;
+          padding-left: 10px;
+          border: 1px solid#777;
+          border-radius: 14px;
+          outline: none;
+         }
+        .input-field-textarea-field{
+          height: 139px;width: 500px;
+          padding-top: 10px;
+          border-radius: 20px;
+        }
+        .left .from{
+           background: rgb(243, 238, 238);
+           height: 480px;
+           width: 600px;
+           border-radius: 40px;
+           margin-top: 100px;
+           padding: 20px 40px;
+
+        }
+        .btne{
+          background: rgb(209, 12, 12);
+          padding: 13px 20px;
+          border-radius: 20px;
+          font-size: 12px;
+          color:white ;
+        }
+        p{
+          text-align: center;
+        }
+        .white{
+          height: 80px;width: 100%;
+          background: white;
+        }
+       
+     
+     
